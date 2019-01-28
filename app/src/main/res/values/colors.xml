@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5790fb</color>
+    <color name="colorPrimaryDark">#5790fb</color>
+    <color name="themeColor">#5790fb</color>
+    <color name="lightThemeColor">#83c1fa</color>
+    <color name="buttonNavigationFalseColor">#555</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="goodsPrice">#ff4400</color>
+    <color name="colorAccountNavFont">#555</color>
+    <color name="colorNotificationsFalse">#555</color>
+    <color name="NotificationsFalseGray">#ddd</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="notificationFriendName">#ff8547</color>
+</resources>
