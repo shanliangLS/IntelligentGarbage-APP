@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--通知-->
+    <RelativeLayout
+        android:id="@+id/notifications_system_notice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/notifications_system_notice_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/notification_notice"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/notifications_system_notice_logo"
+            android:textColor="@color/colorNotificationsFalse"
+            android:textSize="@dimen/notification_system_type"
+            android:text="通知"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/arrow_right_gray"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/notifications_system_notice_logo"
+            android:background="#ddd"/>
+    </RelativeLayout>
+
+    <!--赞-->
+    <RelativeLayout
+        android:id="@+id/notifications_system_fabulous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/notifications_system_fabulous_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/notification_fabulous"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/notifications_system_fabulous_logo"
+            android:textColor="@color/colorNotificationsFalse"
+            android:textSize="@dimen/notification_system_type"
+            android:text="赞"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/arrow_right_gray"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/notifications_system_fabulous_logo"
+            android:background="#ddd"/>
+    </RelativeLayout>
+
+    <!--关注-->
+    <RelativeLayout
+        android:id="@+id/notifications_system_follow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:clickable="true"
+        android:onClick="onClick">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/notifications_system_follow_logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/notification_follow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/notifications_system_follow_logo"
+            android:textColor="@color/colorNotificationsFalse"
+            android:textSize="@dimen/notification_system_type"
+            android:text="关注"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/arrow_right_gray"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/notifications_system_follow_logo"
+            android:background="#ddd"/>
+    </RelativeLayout>
+
+</LinearLayout>
