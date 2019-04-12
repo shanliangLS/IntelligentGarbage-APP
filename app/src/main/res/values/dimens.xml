@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="textSizeAccountNav">16sp</dimen>
+    <dimen name="home_cardView_title">15sp</dimen>
+    <dimen name="dashboard_goods_introduction">12sp</dimen>
+    <dimen name="dashboard_goods_price">16sp</dimen>
+    <dimen name="dashboard_goods_price_symbol">10sp</dimen>
+    <dimen name="dashboard_goods_type">16sp</dimen>
+    <dimen name="top_buttonnavigation_title">16sp</dimen>
+    <dimen name="notification_friend_name">15sp</dimen>
+    <dimen name="notification_system_type">16sp</dimen>
+</resources>

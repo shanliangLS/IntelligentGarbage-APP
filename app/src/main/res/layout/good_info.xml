@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/account_title" />
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/zt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@color/themeColor" />
+
+        <ImageView
+            android:background="#ffffffff"
+            android:id="@+id/shop_icons_xiangqing"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/zt"
+            android:src="@drawable/goods1_eat" />
+
+        <TextView
+            android:id="@+id/zt2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@id/shop_icons_xiangqing"
+            android:background="#979696" />
+
+        <TextView
+            android:id="@+id/tit_desc_xiangqing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/zt2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:text="商品"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/price_xiangqing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tit_desc_xiangqing"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="9dp"
+            android:text="119.00积分"
+            android:textColor="#f00"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/xian1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/price_xiangqing"
+            android:layout_marginTop="8dp"
+            android:background="#c7c5c5" />
+
+
+        <RelativeLayout
+            android:id="@+id/cuxiao"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_above="@+id/kong_xiangqing"
+            android:layout_below="@id/xian1">
+
+            <TextView
+                android:id="@+id/cuxiao_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="12dp"
+                android:text="详细信息" />
+
+            <TextView
+                android:id="@+id/cuxiao_icon"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:text="这里是商品详细信息"
+                android:layout_toRightOf="@id/cuxiao_text"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button_btn_xiangqing"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:background="#fff">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_gravity="bottom"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/goods_shop"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+                    <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:padding="5dp"-->
+                    <!--android:src="@mipmap/into_shop" />-->
+                    <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="进入店铺"-->
+                    <!--android:textColor="#666666"/>-->
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/now_buy"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="#F44336"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="立即兑换"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/kong_xiangqing"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@id/button_btn_xiangqing"
+            android:background="#b9b8b8" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+

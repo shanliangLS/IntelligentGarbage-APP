@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/home_rank_others_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/guis_logo_1_1"
+        />
+
+    <TextView
+        android:id="@+id/home_rank_others_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/home_rank_others_logo"
+        android:textColor="@color/notificationFriendName"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="测试用户"/>
+
+    <TextView
+        android:id="@+id/home_rank_others_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@id/home_rank_others_name"
+        android:layout_alignParentRight="true"
+        android:textColor="#bbb"
+        android:textSize="14sp"
+        android:text="未上榜"/>
+
+    <ImageView
+        android:id="@+id/home_rank_symbol_right"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/home_rank_others_logo"
+        android:layout_below="@id/home_rank_others_name"
+        android:src="@drawable/accumulate_points"/>
+
+    <TextView
+        android:id="@+id/home_rank_others_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/home_rank_symbol_right"
+        android:layout_alignTop="@id/home_rank_symbol_right"
+        android:textColor="#444"
+        android:textSize="15sp"
+        android:text="0"/>
+</RelativeLayout>

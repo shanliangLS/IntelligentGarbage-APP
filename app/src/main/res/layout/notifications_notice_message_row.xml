@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notifications_system_notice_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:clickable="true"
+    android:onClick="onClick">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/notifications_friend_logo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="13dp"
+        android:src="@drawable/notification_notice_message_logo"/>
+
+    <TextView
+        android:id="@+id/notifications_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/notifications_friend_logo"
+        android:textColor="@color/themeColor"
+        android:textSize="@dimen/notification_friend_name"
+        android:textStyle="bold"
+        android:text="智能垃圾桶"/>
+
+    <TextView
+        android:id="@+id/notifications_friend_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@id/notifications_friend_name"
+        android:layout_alignParentRight="true"
+        android:textColor="#bbb"
+        android:text="12-16  10:05"/>
+
+    <TextView
+        android:id="@+id/notifications_friend_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@id/notifications_friend_logo"
+        android:layout_below="@id/notifications_friend_name"
+        android:textColor="#444"
+        android:text="【垃圾投放】垃圾投放正确，积分+2"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/notifications_friend_logo"
+        android:background="#ddd"/>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--百分比圆环-->
+    <declare-styleable name="PercentageRing">
+        <attr name="radius" format="integer"/>
+        <attr name="circleBackground" format="color"/>
+        <attr name="ringColor" format="color"/>
+        <attr name="textColor" format = "color"/>
+        <!--<attr name="textContent" format="string"/>-->
+    </declare-styleable>
+
+    <!--设置页面列表项-->
+    <declare-styleable name="ItemView">
+        <!--设置左侧图标-->
+        <attr name="left_icon" format="integer"/>
+        <!--是否显示左侧图标-->
+        <attr name="show_left_icon" format="boolean"/>
+        <!--左侧标题文字-->
+        <attr name="left_text" format="string"/>
+        <!--右侧描述文字-->
+        <attr name="right_text" format="string"/>
+        <!--是否显示右侧小箭头-->
+        <attr name="show_right_arrow" format="boolean"/>
+        <!--是否显示下划线-->
+        <attr name="show_bottom_line" format="boolean"/>
+    </declare-styleable>
+</resources>

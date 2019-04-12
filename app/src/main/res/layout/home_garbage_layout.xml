@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:id="@+id/line_1_2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_centerHorizontal="true" />
+
+        <!--左二分之一-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/line_1_2">
+
+            <View
+                android:id="@+id/line_1_4"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true" />
+
+            <!--左四分之一-->
+            <RelativeLayout
+                android:id="@+id/percentcircle_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/line_1_4">
+                <com.example.ig.controller.PercentCircle
+                    android:id="@+id/percentcircle1"
+                    android:layout_centerInParent="true"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    app:radius="75"
+                    app:circleBackground="#00000000"
+                    app:ringColor="#ffffff"
+                    app:textColor="#ffffff"/>
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ring_green"/>
+            </RelativeLayout>
+
+            <!--左四分之二-->
+            <RelativeLayout
+                android:id="@+id/percentcircle_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/line_1_4">
+                <com.example.ig.controller.PercentCircle
+                    android:id="@+id/percentcircle2"
+                    android:layout_centerInParent="true"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    app:radius="75"
+                    app:circleBackground="#00000000"
+                    app:ringColor="#ffffff"
+                    app:textColor="#ffffff"/>
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ring_red"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <!--右二分之一-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/line_1_2">
+
+            <View
+                android:id="@+id/line_3_4"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_centerHorizontal="true" />
+
+            <!--右四分之三-->
+            <RelativeLayout
+                android:id="@+id/percentcircle_layout3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@id/line_3_4">
+                <com.example.ig.controller.PercentCircle
+                    android:id="@+id/percentcircle3"
+                    android:layout_centerInParent="true"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    app:radius="75"
+                    app:circleBackground="#00000000"
+                    app:ringColor="#ffffff"
+                    app:textColor="#ffffff"/>
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ring_orange"/>
+            </RelativeLayout>
+
+            <!--右四分之四-->
+            <RelativeLayout
+                android:id="@+id/percentcircle_layout4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@id/line_3_4">
+                <com.example.ig.controller.PercentCircle
+                    android:id="@+id/percentcircle4"
+                    android:layout_centerInParent="true"
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    app:radius="75"
+                    app:circleBackground="#00000000"
+                    app:ringColor="#ffffff"
+                    app:textColor="#ffffff"/>
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ring_blue"/>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

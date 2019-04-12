@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:clickable="true"
+    android:onClick="onClick">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/notifications_friend_logo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/user_logo2"
+        />
+
+    <TextView
+        android:id="@+id/notifications_friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/notifications_friend_logo"
+        android:textColor="@color/notificationFriendName"
+        android:textSize="@dimen/notification_friend_name"
+        android:textStyle="bold"
+        android:text="董宇航"/>
+
+    <TextView
+        android:id="@+id/notifications_friend_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@id/notifications_friend_name"
+        android:layout_alignParentRight="true"
+        android:textColor="#bbb"
+        android:text="12-12  20:05"/>
+
+    <TextView
+        android:id="@+id/notifications_friend_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@id/notifications_friend_logo"
+        android:layout_below="@id/notifications_friend_name"
+        android:textColor="#444"
+        android:text="【打招呼】用户您好，我是分类精灵APP的开发人员董宇航..."
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/notifications_friend_logo"
+        android:background="#ddd"/>
+</RelativeLayout>

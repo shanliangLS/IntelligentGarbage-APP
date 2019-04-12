@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5790fb</color>
+    <color name="colorPrimaryDark">#5790fb</color>
+    <color name="themeColor">#5790fb</color>
+    <color name="lightThemeColor">#83c1fa</color>
+    <color name="buttonNavigationFalseColor">#555</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="goodsPrice">#ff4400</color>
+    <color name="colorAccountNavFont">#555</color>
+    <color name="colorNotificationsFalse">#555</color>
+    <color name="NotificationsFalseGray">#ddd</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="notificationFriendName">#ff8547</color>
+
+    <color name="colorFloatingActionButton">#008CEE</color>
+    <color name="colorSplashBackground">#0E80C6</color>
+    <color name="colorLogin">#0980C3</color>
+    <color name="colorLoginButton">#004684</color>
+    <color name="colorCursor">#cccccc</color>
+    <color name="head_color">#836FFF</color>
+    <color name="information_title_color">#666666</color>
+    <color name="list_bg_color">#FFF4F4F4</color>
+    <color name="list_focus_color">#bdbdbd</color>
+    <color name="logoScreenBackground">#F7F7F7</color>
+
+    <drawable name="checkbox">#666666</drawable>
+    <drawable name="camera_back_press">#1b1b1b</drawable>
+    <drawable name="camera_back_default">#2f2f2f</drawable>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/account_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 积分规则"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="每次人们把垃圾丢入正确的垃圾箱内时，可以得到5积分，连续5次丢入正确的垃圾箱内时，在加分的基础上奖励20积分，连续10次丢入正确的垃圾箱内时，在加分的基础上奖励40积分。丢入错误的垃圾箱内时，扣除1积分，连续5次丢入错误的垃圾箱内时，在扣分的基础上惩罚10积分，连续10次丢入错误的垃圾箱内时，惩罚20积分，依次类推。当垃圾桶报满时，在1个小时内清理奖励10积分，2个小时内处理，奖励6积分，3个小时内处理奖励2积分，5个小时不处理，扣除3积分，6个小时不处理，扣除10积分，7个小时不处理，扣除15积分，超过7个小时，扣除20积分。"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 称号获取"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="累计垃圾分类正确次数超过10次，会获得分类能手称号，并给相应的奖励；超过20次，会获得分类达人称号，并给相应的奖励；超过30次，会获得分类专家称号，并给相应的奖励；超过40次，会获得分类大神称号，并给相应的奖励；累计垃圾分类错误次数超过10次，会获得分类小白称号，并且扣除相应积分；超过20次，会获得错误分类大王称号，并且扣除相应积分；超过30次。会获得分类砖家称号，并且扣除相应积；以上所有称号都会显示在APP的用户信息中上。当积分达到一定值时，就可以换取APP商城里的各种礼品。"
+        android:textSize="15sp" />
+
+</LinearLayout>

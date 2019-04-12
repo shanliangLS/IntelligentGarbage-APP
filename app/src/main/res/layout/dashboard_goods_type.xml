@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dashboard_goods_type_eat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#ffffff"
+            android:textSize="@dimen/top_buttonnavigation_title"
+            android:text="日用百货" />
+
+        <Button
+            android:id="@+id/dashboard_goods_type_line4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorWhite" />
+        <Button
+            android:id="@+id/dashboard_goods_type_line_gray4"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/NotificationsFalseGray" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dashboard_goods_type_man"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#ffffff"
+            android:textSize="@dimen/top_buttonnavigation_title"
+            android:text="服装配饰" />
+
+        <Button
+            android:id="@+id/dashboard_goods_type_line2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorWhite" />
+        <Button
+            android:id="@+id/dashboard_goods_type_line_gray2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/NotificationsFalseGray" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dashboard_goods_type_woman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#ffffff"
+            android:textSize="@dimen/top_buttonnavigation_title"
+            android:text="学习文具" />
+
+        <Button
+            android:id="@+id/dashboard_goods_type_line3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorWhite" />
+        <Button
+            android:id="@+id/dashboard_goods_type_line_gray3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/NotificationsFalseGray" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dashboard_goods_type_hat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="#ffffff"
+            android:textSize="@dimen/top_buttonnavigation_title"
+            android:text="鞋帽箱包" />
+
+        <Button
+            android:id="@+id/dashboard_goods_type_line5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorWhite" />
+        <Button
+            android:id="@+id/dashboard_goods_type_line_gray5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/NotificationsFalseGray" />
+    </LinearLayout>
+
+</LinearLayout>

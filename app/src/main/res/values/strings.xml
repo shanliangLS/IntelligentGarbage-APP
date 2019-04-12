@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">分类精灵</string>
+    <string name="title_home">首页</string>
+    <string name="title_dashboard">商城</string>
+    <string name="title_notifications">通知</string>
+    <string name="title_account">我的</string>
+    <string name="title_activity_style_hit_block">FunGameHitBlockHeader</string>
+
+</resources>
