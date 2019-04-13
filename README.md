@@ -1,6 +1,7 @@
 # IntelligentGarbage-APP
-智能垃圾桶APP  
+智能垃圾桶APP _V1.0  
   
+实现基础功能
 共4个标签页  
 1、首页  
 （1）垃圾桶含量  
